@@ -91,7 +91,8 @@ class Graph:
 
 
 edges_matrix = []
-with open("matrix.txt", "r") as file:
+file = input()
+with open(file, "r") as file:
     for line in file:
         edges_matrix.append(line.strip().split(' '))
 
